@@ -1,6 +1,7 @@
 Olá pessoal, 
 Neste repositório eu vou publicar todos os exercícios que farei durante meu curso na Trybe.
 Você conhece a Trybe?
+
 A Trybe é uma escola de desenvolvimento web que tem
 comprometimento genuíno com o sucesso profissional das pessoas
 estudantes. Com o Modelo de Sucesso Compartilhado, quem estuda na
