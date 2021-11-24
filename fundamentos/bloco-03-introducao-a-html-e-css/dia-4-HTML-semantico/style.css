@@ -3,7 +3,7 @@ body{
   background-color: #AAD8F2;
   font-family: 'Roboto', sans-serif;
   color: #103B10;
-  width:1000px;
+  width:1200px;
   max-height:fit-content;
   margin-left:20px;
 }
@@ -20,6 +20,7 @@ header a{
 main{
   display:inline-block;
   max-width: 700px;
+  padding-right: 100px ;
 }
 aside{
   display: inline-block;
@@ -27,5 +28,12 @@ aside{
   vertical-align: top;
 }
 table, th, td {
+  padding: 2px;
   border:1px solid black;
+  text-align: left;
+  margin-top:20px;
 }
+iframe {
+  padding-top: 50px;
+  width: 300px; 
+  height:200px} 
