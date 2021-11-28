@@ -1,12 +1,12 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por mim, _ [Gabriel Ferrari ] (https://github.com/GabrielFerrariR) _ enquanto estudava em [Trybe] (https://www.betrybe.com/): rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por mim, _[Gabriel Ferrari](https://github.com/GabrielFerrariR)_ enquanto estudo na [Trybe](https://www.betrybe.com/): rocket:
 
-_ “Trybe é a escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego.” _
+_“Trybe é a escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego.”_
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos de Desenvolvimento Web: white_check_mark:
+## Fundamentos de Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix e Shell
 
@@ -15,25 +15,25 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 ##### Bloco 2: Git e GitHub
 
-- [x] 2-1: _O que é e para que serve? _
+- [x] 2-1: _O que é e para que serve?_
 - [x] 2-2: _Compreendendo comandos_
 - [x] 2-3: _Internet - Compreendendo como funciona_
 
 ##### Bloco 3: Introdução - HTML e CSS
 
-- []x 3-1: _HTML e CSS - Estruturas de página_
+- [x] 3-1: _HTML e CSS - Estruturas de página_
 - [x] 3-2: _HTML e CSS - Primeiros passos com CSS_
 - [x] 3-3: _HTML e CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML semântico_
-- [x] 3-5: _ [Projeto - HTML e CSS] (https://github.com/tryber/sd-019-b-project-lessons-learned/pull/20) _
+- [x] 3-5: _[Projeto - HTML e CSS](https://github.com/tryber/sd-019-b-project-lessons-learned/pull/20)_
 
 ##### Bloco 4: Introdução - JavaScript
 
 - [x] 4-1: _JavaScript - Primeiros passos_
-- [] 4-2: _JavaScript - Array e Loop For_
+<!-- - [] 4-2: _JavaScript - Array e Loop For_
 - [] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [] 4-4: _JavaScript - Objetos e funções_
-- [] 4-5: _ [Projeto - Funções Playground] () _
+- [] 4-5: _[Projeto - Funções Playground]_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -253,4 +253,4 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [] 36-4: _Entrada e Saída de Dados_
 - [] 35-5: _ [Projeto - Notícias de tecnologia] () _
 
-# [...]
+# [...] -->
