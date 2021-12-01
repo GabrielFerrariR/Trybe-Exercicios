@@ -27,16 +27,16 @@ if (n > 1) {
 //3- Agora inverta o lado do triângulo.
 console.log('------------------')
 
-let nString3 = ''
+let string= ''
 let position = n
-for (let index = 0; index < n; index += 1) {
+for (let index = 0; index <= n; index += 1) {
   for (let i = 0; i < n; i += 1) {
-    nString3 += ' '
+    string+= ' '
     if (i == position) {
-      nString3 += '*'.repeat(index)
-      console.log(nString3)
+      string+= '*'.repeat(index)
+      console.log(string)
     }
   }
-  nString3 = ''
+  string = ''
   position -= 1
 }
