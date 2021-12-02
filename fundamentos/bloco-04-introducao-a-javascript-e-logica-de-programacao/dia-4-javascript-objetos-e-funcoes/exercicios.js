@@ -16,4 +16,4 @@ function verifyPalindrome(string){
     return false
   }
 }
-console.log(verifyPalindrome("abola"))
+console.log(verifyPalindrome("abata"))
