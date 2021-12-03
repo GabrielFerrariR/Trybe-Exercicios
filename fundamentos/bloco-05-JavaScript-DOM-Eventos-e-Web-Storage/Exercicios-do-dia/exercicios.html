@@ -36,7 +36,7 @@
     </header>    
     <main class="main-content">
       <section class="center-content">
-        <p>Texto padrão do nosso site</p>
+        <p id ="defaultText">Texto padrão do nosso site</p>
         <p>-----</p>
         <p>Trybe</p>
       </section>
@@ -54,10 +54,25 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
-      const descriptionChange = document.getElementsByClassName('center-content');
-      descriptionChange[0].innerText = 'Bla bla bla bla';
-      const colorChange = document.getElementsByTagName('main');
-      colorChange[0].style.background = rgb(76, 164, 109);
+      const descriptionChange = document.getElementById('defaultText');
+      descriptionChange.innerText = 'Bla bla bla bla';
+     
+      const p = document.getElementsByTagName('p')
+      p[0].style.textTransform = 'uppercase';
+
+      const yellowColorChange = document.getElementsByTagName('main');
+      yellowColorChange[0].style.background = 'rgb(76,164,109)';
+
+      const redColorChange = document.getElementsByClassName('center-content')
+      redColorChange[0].style.background = 'white';
+
+      const titleCorrection = document.getElementsByClassName('title')
+      titleCorrection[0].innerHTML = 'Exercício 5.1 - JavaScript '
+      function exibition(){
+        for (let i =0 ; i < p.length ; i += 1)
+        console.log(p[i])
+      }
+      console.log(exibition())
     </script>
   </body>
 </html>
