@@ -19,6 +19,15 @@
   const atentionText = document.querySelector('#elementoOndeVoceEsta').nextSibling;
   const terceiroFilhoByElement = document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
   const terceiroFilhoByPai = document.querySelector('#pai').children[2];
+  let createBrother = document.createElement('section');
+  createBrother.id = 'irmao';
+  pai.appendChild(createBrother);
+  let createSon = document.createElement('section');
+  createSon.id = "TerceiroFilhooo"
+  document.querySelector('#elementoOndeVoceEsta').appendChild(createSon)
+  let anotherSon = document.createElement('section');
+  anotherSon.id = "filho"
+  primeiroFilhoDoFilho.appendChild(anotherSon)
 
   </script>
 </main>
@@ -30,3 +39,7 @@ Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
 Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
 Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 Agora acesse o terceiroFilho a partir de pai . -->
+<!-- Crie um irmão para elementoOndeVoceEsta .
+Crie um filho para elementoOndeVoceEsta .
+Crie um filho para primeiroFilhoDoFilho .
+A partir desse filho criado, acesse terceiroFilho . -->
