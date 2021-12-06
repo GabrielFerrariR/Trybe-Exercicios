@@ -12,8 +12,13 @@
   <script>
   const pai = document.querySelector("#elementoOndeVoceEsta").parentNode;
   pai.style.backgroundColor= "Green";
-  const primeiroFilhoDoFilho = document.querySelector("#elementoOndeVoceEsta").firstElementChild
-  primeiroFilhoDoFilho.innerText = 'figarofifigarofa'
+  const primeiroFilhoDoFilho = document.querySelector("#elementoOndeVoceEsta").firstElementChild;
+  primeiroFilhoDoFilho.innerText = 'figarofifigarofa';
+  const primeiroFilho = document.querySelector('#pai').firstElementChild;
+  const primeiroFilhoByElement = document.querySelector('#elementoOndeVoceEsta').previousElementSibling;
+  const atentionText = document.querySelector('#elementoOndeVoceEsta').nextSibling;
+  const terceiroFilhoByElement = document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
+  const terceiroFilhoByPai = document.querySelector('#pai').children[2];
 
   </script>
 </main>
