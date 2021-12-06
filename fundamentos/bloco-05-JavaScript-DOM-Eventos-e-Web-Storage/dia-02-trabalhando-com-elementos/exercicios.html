@@ -98,7 +98,36 @@
     }
     fifthExercise();
 
-    function 
+    function sixthExercise() {
+      const section = document.createElement('section');
+      section.className = "right-content";
+      const mainRightContent = document.getElementsByTagName('main');
+      mainRightContent[0].appendChild(section);
+    }
+    sixthExercise()
+    function seventhExercise(){
+      const img = document.createElement('img');
+      img.src = "https://picsum.photos/200";
+      img.className = 'small-image';
+      const rightContentImg = document.getElementsByClassName('right-content');
+      rightContentImg[0].appendChild(img);
+    }
+    seventhExercise()
+
+    function eighthExercise() {
+      let array = ['um','dois','tres','quatro','cinco','seis','sete','oito','nove','dez']
+      const ul = document.createElement('ul')
+      const il = document.createElement('il')
+      const leftContentUl = document.getElementsByClassName('left-content');
+      leftContentUl[0].appendChild(ul);
+      for (let i = 0; i < array.length; i += 1) {
+        let ulItens = document.getElementsByTagName('ul');
+        il.innerText = array[i]
+        ulItens[0].appendChild(il)
+      }
+    }
+    eighthExercise()
+    // AAdicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
     </script>
   </body>
 </html>
