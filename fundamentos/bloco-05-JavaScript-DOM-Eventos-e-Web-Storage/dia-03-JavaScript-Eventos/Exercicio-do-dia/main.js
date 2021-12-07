@@ -25,6 +25,23 @@ function createBtn(string) {
   divButton.appendChild(button)
 }
 createBtn('Feriados')
+const button = document.getElementById('btn-holiday')
+button.addEventListener('click', colorChange)
+
+function colorChange(){
+  const holiday = document.getElementsByClassName('holiday')
+  for ( let i = 0; i < holiday.length; i += 1) {
+    holiday[i].style.backgroundColor = 'green'
+  }
+  button.addEventListener('click', colorChangeBack)
+}
+function colorChangeBack() {
+  const holiday = document.getElementsByClassName('holiday')
+  for ( let i = 0; i < holiday.length; i += 1) {
+    holiday[i].style.backgroundColor = 'rgb(238,238,238)'
+  }
+  button.addEventListener('click', colorChange)
+}
 
 function createDaysOfTheWeek() {
   const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
