@@ -78,7 +78,6 @@
       section.className = 'center-content'
       const mainContainer = document.getElementsByClassName('main-content');
       mainContainer[0].appendChild(section)
-      console.log(mainContainer);
     }
     thirdExercise(); 
 
@@ -115,19 +114,27 @@
     seventhExercise()
 
     function eighthExercise() {
-      let array = ['um','dois','tres','quatro','cinco','seis','sete','oito','nove','dez']
-      const ul = document.createElement('ul')
-      const il = document.createElement('il')
+      let array = ['um','dois','tres','quatro','cinco','seis','sete','oito','nove','dez'];
+      const ul = document.createElement('ul');
       const leftContentUl = document.getElementsByClassName('left-content');
       leftContentUl[0].appendChild(ul);
+      const ulItens = document.getElementsByTagName('ul');
+    
       for (let i = 0; i < array.length; i += 1) {
-        let ulItens = document.getElementsByTagName('ul');
-        il.innerText = array[i]
-        ulItens[0].appendChild(il)
+      const il = document.createElement('li');
+      il.innerText += array[i]
+      ulItens[0].appendChild(il)
       }
+
     }
     eighthExercise()
-    // AAdicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+{
+    const h3 = document.createElement('h3');
+    h3.innerText = 'Teste'
+    const mainH3 = document.getElementsByTagName('main');
+    mainH3[0].appendChild(h3)
+}
+    // Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2. -->
     </script>
   </body>
 </html>
