@@ -1,0 +1,45 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+  <script>
+  const pai = document.querySelector("#elementoOndeVoceEsta").parentNode;
+  pai.style.backgroundColor= "Green";
+  const primeiroFilhoDoFilho = document.querySelector("#elementoOndeVoceEsta").firstElementChild;
+  primeiroFilhoDoFilho.innerText = 'figarofifigarofa';
+  const primeiroFilho = document.querySelector('#pai').firstElementChild;
+  const primeiroFilhoByElement = document.querySelector('#elementoOndeVoceEsta').previousElementSibling;
+  const atentionText = document.querySelector('#elementoOndeVoceEsta').nextSibling;
+  const terceiroFilhoByElement = document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
+  const terceiroFilhoByPai = document.querySelector('#pai').children[2];
+  let createBrother = document.createElement('section');
+  createBrother.id = 'irmao';
+  pai.appendChild(createBrother);
+  let createSon = document.createElement('section');
+  createSon.id = "TerceiroFilhooo"
+  document.querySelector('#elementoOndeVoceEsta').appendChild(createSon)
+  let anotherSon = document.createElement('section');
+  anotherSon.id = "filho"
+  primeiroFilhoDoFilho.appendChild(anotherSon)
+
+  </script>
+</main>
+<!-- Acesse o elemento elementoOndeVoceEsta .
+Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+Acesse o primeiroFilho a partir de pai .
+Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+Agora acesse o terceiroFilho a partir de pai . -->
+<!-- Crie um irmão para elementoOndeVoceEsta .
+Crie um filho para elementoOndeVoceEsta .
+Crie um filho para primeiroFilhoDoFilho .
+A partir desse filho criado, acesse terceiroFilho . -->
