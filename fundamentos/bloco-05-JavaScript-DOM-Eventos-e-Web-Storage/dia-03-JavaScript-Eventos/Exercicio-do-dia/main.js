@@ -73,12 +73,29 @@ function fridayTextChange(){
       fridays[i].innerText = "Mufasa!"}
   }
 }
-const dayCatch = document.getElementsByClassName('day')
-console.log(dayCatch)
-// for (let i = 0; i < dayCatch.length; i += 0) {
-//   dayCatch[i].addEventListener('click',zooming)
-// }
+const dayCatch = document.getElementsByClassName('day');
+dayCatch[0].addEventListener('mouseover',zooming);
+dayCatch[0].addEventListener('mouseleave', defaultSize);
+console.log(dayCatch);
 
-function zooming() {
+// for (let days of dayCatch) {
+//     dayCatch[days].addEventListener('click', zooming);
+//   }
+
+
+function zooming(event) {
+  event.target.style.fontSize = '28px';
   console.log('teste')
 }
+function defaultSize(event){
+  event.target.style.fontSize = '20px';
+}
+
+function creatTask(string) {
+const span = document.createElement('span');
+span.innerText = string
+const divTask = document.getElementsByClassName('my-tasks');
+divTask[0].appendChild(span)
+}
+
+creatTask('cozinhar')
