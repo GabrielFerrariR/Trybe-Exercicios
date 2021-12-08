@@ -73,3 +73,12 @@ function fridayTextChange(){
       fridays[i].innerText = "Mufasa!"}
   }
 }
+const dayCatch = document.getElementsByClassName('day')
+console.log(dayCatch)
+// for (let i = 0; i < dayCatch.length; i += 0) {
+//   dayCatch[i].addEventListener('click',zooming)
+// }
+
+function zooming() {
+  console.log('teste')
+}
