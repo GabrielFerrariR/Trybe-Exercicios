@@ -1,0 +1,6 @@
+section.children {
+  display: block;
+}
+#size-select option{
+  width: 100px;
+}
