@@ -118,8 +118,7 @@
       const ul = document.createElement('ul');
       const leftContentUl = document.getElementsByClassName('left-content');
       leftContentUl[0].appendChild(ul);
-      const ulItens = document.getElementsByTagName('ul');
-    
+      const ulItens = document.getElementsByTagName('ul');   
       for (let i = 0; i < array.length; i += 1) {
       const il = document.createElement('li');
       il.innerText += array[i]
@@ -128,12 +127,15 @@
 
     }
     eighthExercise()
-{
-    const h3 = document.createElement('h3');
-    h3.innerText = 'Teste'
-    const mainH3 = document.getElementsByTagName('main');
-    mainH3[0].appendChild(h3)
-}
+    function ninethExercise() { 
+      for (let i = 0; i < 3 ; i+=1) {
+        const h3 = document.createElement('h3');
+        h3.innerText = 'Teste'
+        const mainH3 = document.getElementsByTagName('main');
+        mainH3[0].appendChild(h3)
+      }
+    }
+    ninethExercise()
     // Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2. -->
     </script>
   </body>
