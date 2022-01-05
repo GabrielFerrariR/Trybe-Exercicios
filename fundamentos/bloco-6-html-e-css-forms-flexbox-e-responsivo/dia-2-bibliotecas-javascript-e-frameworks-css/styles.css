@@ -1,0 +1,11 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+body {
+  background-color: rgb(234, 235, 227);
+}
+header h1 {
+  background-color: rgb(220, 226, 226);
+  text-align: center;
+  border-radius: 4px;
+  padding: 32px;
+  border-style: groove;
+}
