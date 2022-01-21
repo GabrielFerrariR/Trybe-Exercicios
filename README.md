@@ -33,40 +33,40 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [x] 4-2: _JavaScript - Array e Loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Funções Playground]_
+- [x] 4-5: _[Projeto - Funções Playground](https://github.com/tryber/sd-019-b-project-playground-functions/pull/17)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [x] 5-1: _JavaScript - DOM e seletores_
-<!---- - [] 5-2: _JavaScript - Trabalhando com itens_ 
-- [] 5-3: _JavaScript - Eventos_
-- [] 5-4: _JavaScript - Web Storage_
-- [] 5-5: _ [Projeto - Gerador de Meme] () _
-- [] 5-6: _ [Projeto - Arte com Pixels] () _
-- [] 5-7: _ [Projeto - Lista de tarefas] () _
-- [] 5-7: _ [Projeto - Adivinhe a cor] () _
-- [] 5-7: _ [Projeto - Carta Misteriosa] () _
+- [x] 5-2: _JavaScript - Trabalhando com itens_  
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _[Projeto - Gerador de Meme](https://github.com/tryber/sd-019-b-project-meme-generator/pull/46)_
+- [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-019-b-project-pixels-art/pull/12)_
+- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-019-b-project-todo-list/pull/23)_
+- [x] 5-7: _[Projeto - Adivinhe a cor](https://github.com/tryber/sd-019-b-project-color-guess/pull/12)_
+- [x] 5-7: _[Projeto - Carta Misteriosa](https://github.com/tryber/sd-019-b-project-mistery-letter/pull/36)_
 
 ##### Bloco 6: HTML e CSS avançados
 
-- [] 6-1: _HTML e CSS - Formulários_
-- [] 6-2: _Bibliotecas JavaScript e estruturas CSS_
-- [] 6-3: _CSS Flexbox - Parte 1_
-- [] 6-4: _CSS Flexbox - Parte 2_
-- [] 6-5: _CSS Responsive - Mobile First_
-- [] 6-6: _ [Projeto - página inicial do Facebook] () _
+- [x] 6-1: _HTML e CSS - Formulários_
+- [x] 6-2: _Bibliotecas JavaScript e estruturas CSS_
+- [x] 6-3: _CSS Flexbox - Parte 1_
+- [x] 6-4: _CSS Flexbox - Parte 2_
+- [x] 6-5: _CSS Responsive - Mobile First_
+- [x] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-019-b-project-trybewarts/pull/42)_
 
 ##### Bloco 7: JavaScript ES6 e testes de unidade
 
-- [] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
-- [] 7-2: _JavaScript ES6 - Objetos_
-- [] 7-3: _Testes de unidade em JavaScript_
-- [] 7-4: _ [Projeto - Testes de unidade de JavaScript] () _
+- [x] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
+- [x] 7-2: _JavaScript ES6 - Objetos_
+- [x] 7-3: _Testes de unidade em JavaScript_
+- [x] 7-4: _[Projeto - Testes de unidade de JavaScript](https://github.com/tryber/sd-019-b-project-js-unit-tests/pull/22)_
 
 ##### Bloco 8: JavaScript ES6
 
-- [] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
-- [] 8-2: _JavaScript ES6 - Funções de ordem superior - mapear e filtrar_
+- [x] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
+<!-- - [x] 8-2: _JavaScript ES6 - Funções de ordem superior - mapear e filtrar_ 
 - [] 8-3: _JavaScript ES6 - Funções de ordem superior - reduzir_
 - [] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
 - [] 8-5: _ [Projeto - funções do zoológico] () _
