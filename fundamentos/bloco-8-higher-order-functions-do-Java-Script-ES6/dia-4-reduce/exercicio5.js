@@ -60,21 +60,27 @@ const books = [
     releaseYear: 1928,
   },
 ];
-// Encontre o livro com o maior nome.
+//5 - Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
-
-const expectedResult = {
-  id: 1,
-  name: 'As Crônicas de Gelo e Fogo',
-  genre: 'Fantasia',
-  author: {
-    name: 'George R. R. Martin',
-    birthYear: 1948,
-  },
-  releaseYear: 1991,
-};
-
-function longestNamedBook() {
-  return books.reduce((big, cur) => (cur.name.length > big) ? cur.name : big, 0)
+const names = [
+  'Aanemarie', 'Adervandes', 'Akifusa',
+  'Abegildo', 'Adicellia', 'Aladonata',
+  'Abeladerco', 'Adieidy', 'Alarucha',
+];
+const letterIterate = () => {
+  for (let index = 0; index < names.length; index += 1) {
+    const element = array[index];
+    
+  }
 }
-console.log(longestNamedBook())
+function containsA() {
+ return names.reduce((acc, cur) => {
+  return acc + cur.split('').reduce((accun, curren) => {
+    if (curren === 'A' || curren === 'a') {
+      return accun + 1
+    }
+    return accun
+  }, 0)
+ }, 0)
+}
+console.log(containsA())
