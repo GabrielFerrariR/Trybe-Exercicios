@@ -53,18 +53,23 @@ const retornoEsperado = {
   S: [ { city: 'Cascavel', state: 'Paraná' } ],
 }
 // Dado um arquivo com dados de regiões, estados e cidades, crie uma função (mapCities) que retorna um objeto no qual as chaves são as siglas das regiões (N, NE, CW, SE e S) e os valores são arrays compostos por objetos com o nome da cidade e o nome do estado.
-const cityTag = () => {
-  
+const cityTag = (local) => {
+  const test = cities.forEach((city) => {
+    if (city.region === local.short) { 
+      return {city: city.name, state:'teste'}
+    } 
+  })
+  return test
 }
 const stateTag = () => {
   
 }
+const database = {}
 const mapCities = () => {
-  return regions.map((local) => ({
-    [local.short] : [
-      cities.forEach((city) => city.region === local.short ? {city: city.name} : 'deu errado'), 
-      
-    ]
-  }))
+ regions.forEach((local) => {
+    database[local] = 'test'
+  })
+  return database
 }
-console.log(mapCities())
+console.log(JSON.stringify(mapCities(), null, 2))
+// console.log(mapCities())
