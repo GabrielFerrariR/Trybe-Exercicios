@@ -53,40 +53,36 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [x] 6-2: _Bibliotecas JavaScript e estruturas CSS_
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
-- [x] 6-5: _CSS Responsive - Mobile First_
+- [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-019-b-project-trybewarts/pull/42)_
 
 ##### Bloco 7: JavaScript ES6 e testes de unidade
 
-- [x] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
-- [x] 7-2: _JavaScript ES6 - Objetos_
-- [x] 7-3: _Testes de unidade em JavaScript_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [x] 7-3: _Primeiros passos em Jest_
 - [x] 7-4: _[Projeto - Testes de unidade de JavaScript](https://github.com/tryber/sd-019-b-project-js-unit-tests/pull/22)_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: Higher Order Functions do JavaScript ES6
 
-- [x] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
-<!-- - [x] 8-2: _JavaScript ES6 - Funções de ordem superior - mapear e filtrar_ 
-- [] 8-3: _JavaScript ES6 - Funções de ordem superior - reduzir_
-- [] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
-- [] 8-5: _ [Projeto - funções do zoológico] () _
+- [x] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ 
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [x] 8-6: _[Projeto - Testes de unidade de JavaScript](https://github.com/tryber/sd-19-b-project-zoo-functions/pull/13)_
 
-##### Bloco 9: Assincronia e Callbacks
+##### Bloco 9: JavaScript e Testes Assíncronos 
 
-- [] 9-1: _JavaScript Assíncrono e Callbacks_
-- [] 9-2: _Promessas JavaScript_
-- [] 9-3: _ [Projeto - Carrinho de compras] () _
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono- Fetch API e async/await_
+- [x] 9-3: _Jest- Teste Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-019-b-project-shopping-cart/pull/8)_
 
-##### Bloco 10: Jest
 
-- [] 10-1: _Primeiros Passos do Jest_
-- [] 10-2: _Jest - Testes Assíncronos_
-- [] 10-3: _Jest - Simulando comportamentos_
-- [] 10-4: _ [Projeto - Montagem e Simulação de Jest] () _
+## Desenvolvimento de front-end :hourglass_flowing_sand:
 
-## Desenvolvimento de front-end: hourglass_flowing_sand:
-
-##### Bloco 11: Introdução - Reação
+<!-- ##### Bloco 10: Introdução - React 
 
 - [] 11-1: _'Olá, mundo! ' não reaja! _
 - [] 11-2: _Componentes de reação_
