@@ -137,7 +137,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 - [x] 18-1: _[Projeto - Aplicativo de receita]()_
 
-## Desenvolvimento de back-end: hourglass_flowing_sand:
+## Desenvolvimento de back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
