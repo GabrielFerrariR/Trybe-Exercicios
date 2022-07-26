@@ -6,7 +6,7 @@ _“Trybe é a escola do futuro para quem quer melhorar de vida e construir uma 
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos de Desenvolvimento Web :white_check_mark:
+## Fundamentos de Desenvolvimento Web ✅
 
 ##### Bloco 1: Introdução - Unix e Shell
 
@@ -72,6 +72,9 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 - [x] 8-6: _[Projeto - Testes de unidade de JavaScript](https://github.com/tryber/sd-19-b-project-zoo-functions/pull/13)_
 
+
+## Desenvolvimento de front-end ✅
+
 ##### Bloco 9: JavaScript e Testes Assíncronos 
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
@@ -80,92 +83,93 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-019-b-project-shopping-cart/pull/8)_
 
 
-## Desenvolvimento de front-end :hourglass_flowing_sand:
+##### Bloco 10: Introdução - React 
 
-<!-- ##### Bloco 10: Introdução - React 
+- [x] 10-1: _'Olá, mundo! ' no REact!_
+- [x] 10-2: _Componentes de reação_
+- [x] 10-3: _[Projeto - Solar System]()_
 
-- [] 11-1: _'Olá, mundo! ' não reaja! _
-- [] 11-2: _Componentes de reação_
-- [] 11-3: _ [Projeto - Biblioteca de Cartões de Filme] () _
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-##### Bloco 12: Reagir
+- [x] 11-1: _Componentes com estado e eventos_
+- [x] 11-2: _Formulários no react_
+- [x] 11-3: _[Projeto - Trynfo]()_
 
-- [] 12-1: _Componentes com status_
-- [] 12-2: _Eventos e formas na reação_
-- [] 12-3: _ [Projeto - Biblioteca de cartões de filme com estado] () _
+##### Bloco 12: Ciclo de vida de Componentes e React Router
 
-##### Bloco 13: Reagir
+- [x] 12-1: _Ciclo de vida de Componentes_
+- [x] 12-2: _Reat Router_
+- [x] 12-3: _[Projeto - TrybeTunes]()_
 
-- [] 13-1: _Melhorando a reutilização de componentes: props.children e PropTypes_
-- [] 13-2: _React Component Lifecycle_
-- [] 13-3: _Reat Router_
-- [] 13-4: _ [Projeto - Biblioteca de Cartões de Filme CRUD] () _
+##### Bloco 13: Metodologias ágeis
 
-##### Bloco 14: Metodologias atuais
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: _[Projeto - Loja online de front-end]()_
 
-- [] 14-1: _Metodologias Ã ?? geis_
-- [] 14-2: _ [Projeto - Loja online de front-end] () _
+##### Bloco 14: Testes automatizados com React Testing Library
 
-##### Bloco 15: Testes de reação
+- [x] 14-1: _Primeiros passos_
+- [x] 14-2: _Mocks e Inputs_
+- [x] 14-3: _Testando React Router_
+- [x] 14-4: _[Projeto - Testes em React]()_
 
-- [] 15-1: _Testing React with React Testing Library_
-- [] 15-2: _Testing React com a Biblioteca de Testes React - Parte 2_
-- [] 15-3: _ [Projeto - Testes de reação] () _
+ ##### Bloco 15: Gerenciamento de estado com Redux
 
-##### Bloco 16: Introdução ao Redux
+- [x] 15-1: _Introdução ao Redux_
+- [x] 15-2: _Redux no React_
+- [x] 15-3: _Redux no React- Prática_
+- [x] 15-4: _Redux no React- Actions assíncronas_
+- [x] 15-5: _Testes síncronos com React-Redux_
+- [x] 15-6: _[Projeto - TrybeWallet]()_
 
-- [] 16-1: _Introdução ao Redux_
-- [] 16-2: _Reata com Redux - Parte 1_
-- [] 16-3: _Reata com Redux - Pratique_
-- [] 16-4: _Reata com Redux - Parte 2_
-- [] 16-5: _Testes síncronos com React-Redux_
-- [] 16-6: _ [Projeto - Tabela com filtros de dados] () _
+##### Bloco 16: Projeto Jogo de Trivia
 
-##### Bloco 17: Reação do Projeto
+- [x] 16-1: _[Projeto - Jogo de Trivia]()_
 
-- [] 17-1: _ [Projeto - Jogo de curiosidades] () _
+##### Bloco 17: Context API e React Hooks
 
-##### Bloco 18: API React & Context
+- [x] 17-1: _React API Context_
+- [x] 17-2: _React Hooks - useState e useContext_
+- [x] 17-3: _React Hooks - useEffect e Custom Hooks_
+- [x] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-- [] 18-1: _React API Context_
-- [] 18-2: _React Hooks - useState e useContext_
-- [] 18-3: _React Hooks - useEffect e Custom Hooks_
-- [] 18-4: _ [Projeto - StarWars Datatable com API de Contexto e Ganchos] () _
+##### Bloco 18: Projeto Front-end Final
 
-##### Bloco 19: Projeto Front-end Final
-
-- [] 19-1: _ [Projeto - Aplicativo de receita] () _
+- [x] 18-1: _[Projeto - Aplicativo de receita]()_
 
 ## Desenvolvimento de back-end: hourglass_flowing_sand:
 
+##### Bloco 19: Docker: Utilizando Containers
+
+- [x] 19-1: _Utilizando containers - Docker_
+- [x] 19-2: _Manipulando imagens no Docker_
+- [x] 19-3: _Orquestrando containers com Docker-compose_
+- [x] 19-4: _[Projeto - Docker Todo-List]()_
+
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
-- [] 20-1: _Banco de dados SQL_
-- [] 20-2: _Encontrando dados em um banco de dados_
-- [] 20-3: _Filtrando dados especificamente_
-- [] 20-4: _Manipulando tabelas_
-- [] 20-5: _ [Projeto - Todos por um] () _
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados especificamente_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All for One]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [] 21-1: _Funções mais usadas em SQL_
-- [] 21-2: _Descomplicando JOINs e UNIONs_
-- [] 21-3: _Rotinas e subconsultas armazenadas_
-- [] 21-4: _ [Projeto - Reforço do vocabulário] () _
+- [x] 21-1: _Funções mais usadas em SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs_
+- [x] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-4: _[Projeto - One for All]()_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 22: Introdução - NodeJS
 
-- [] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [] 22-2: _Normalização, formas normais e despejos_
-- [] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [] 22-3: _ [Projeto - Um para todos] () _
-
-##### Bloco 23: Introdução - NoSQL
-
-- [] 23-1: _MongoDB - Introdução_
-- [] 23-2: _Operadores de filtro_
-- [] 23-3: _ [Projeto - Voos de dados] () _
-
+- [x] 22-1: _NodeJS - Um motor Javascript_
+- [x] 22-2: _NodeJS - Fluxo Assíncrono_
+- [x] 22-3: _NodeJS - Mocha, Chai e Sinon - TEstes de Backend_
+- [x] 22-4: _Express - Http com Node.js_
+- [x] 22-5: _Express - Middlewares_
+- [x] 22-6: _[Projeto - Talker Manger]()_
+<!-- 
 ##### Bloco 24: Atualizações
 
 - [] 24-1: _Atualiza Simples_
@@ -179,12 +183,6 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [] 25-2: _Estrutura de agregação - Parte 2_
 - [] 25-3: _ [Projeto - Agregações] () _
 
-##### Bloco 26: Introdução - NodeJS
-
-- [] 26-1: _NodeJS - Introdução_
-- [] 26-2: _NodeJS - Fluxo Assíncrono_
-- [] 26-3: _NodeJS - Arquitetura_
-- [] 26-4: _ [Projeto - A CLI de Gelo e Fogo] () _
 
 ##### Bloco 27: NodeJS
 
