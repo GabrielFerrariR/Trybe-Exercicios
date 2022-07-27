@@ -13,7 +13,7 @@ const getById = async (req, res) => {
   return product;
 };
 
-const addProduct = async (req, res) => {
+const add = async (req, res) => {
   const { name, brand } = req.body;
 
   const newProduct = await ProductModel.add(name, brand);
@@ -21,13 +21,13 @@ const addProduct = async (req, res) => {
   return newProduct;
 };
 
-const deleteProduct =  async (req, res) => {
+const exclude =  async (req, res) => {
   const products = await ProductModel.exclude(req.params.id);
 
   return products;
 };
 
-const updateProduct = async (req, res) => {
+const update = async (req, res) => {
   const { name, brand } = req.body;
 
   const products = await ProductModel.update(req.params.id, name, brand);
@@ -38,7 +38,7 @@ const updateProduct = async (req, res) => {
 module.exports = {
   getAll,
   getById,
-  addProduct,
-  deleteProduct,
-  updateProduct,
+  add,
+  exclude,
+  update,
 };

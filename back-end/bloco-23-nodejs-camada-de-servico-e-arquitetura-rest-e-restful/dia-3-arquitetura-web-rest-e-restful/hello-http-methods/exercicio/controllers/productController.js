@@ -1,41 +1,42 @@
 const express = require('express');
-const ProductModel = require('../models/productModel');
+const productService = require('../services/productService')
+
 
 const app = express();
 app.use(express.json());
 
 const getAll =  async (req, res) => {
-  const products = await ProductModel.getAll();
+  const products = await productService.getAll();
 
   res.status(200).json(products);
 };
 
 const getById = async (req, res) => {
-  const product = await ProductModel.getById(req.params.id);
+  const product = await productService.getById(req.params.id);
 
-  return product;
+ res.status(200).json(product);
 };
 
 const addProduct = async (req, res) => {
   const { name, brand } = req.body;
 
-  const newProduct = await ProductModel.add(name, brand);
+  const newProduct = await productService.add(name, brand);
 
-  return newProduct;
+  res.status(201).json(newProduct);
 };
 
 const deleteProduct =  async (req, res) => {
-  const products = await ProductModel.exclude(req.params.id);
+  const products = await productService.exclude(req.params.id);
 
-  return products;
+  res.status(200).json(products);
 };
 
 const updateProduct = async (req, res) => {
   const { name, brand } = req.body;
 
-  const products = await ProductModel.update(req.params.id, name, brand);
+  const products = await productService.update(req.params.id, name, brand);
 
-  return products;
+  res.status(204).json(products);
 };
 
 module.exports = {
